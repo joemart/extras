@@ -1,0 +1,13 @@
+@mixin pageLayout(){
+    background: linear-gradient(rgba(19, 37, 100, 1), rgba(64, 19, 100, 1));
+    animation: 10s hue_background infinite alternate ease-in-out;
+    @keyframes hue_background {
+        0%{
+          filter: hue-rotate(0);
+        }
+      
+        100%{
+          filter: hue-rotate(20deg);
+        }
+      }  
+}
