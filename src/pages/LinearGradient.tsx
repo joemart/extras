@@ -15,9 +15,11 @@ export default function LinearGradient() {
         <svg
             data-position="top-left"
             fill="none"
-            height="51"
+            // height="51"
+            // width="237"
             viewBox="0 0 237 51"
-            width="237">
+
+        >
             <path
                 stroke="url(#:R4h69rqjlta:)"
                 stroke-linecap="round"
