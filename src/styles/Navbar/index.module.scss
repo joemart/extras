@@ -28,7 +28,7 @@
 
     list-style-type: none;
 
-    transition: all 1s ease-out;
+    transition: all .3s ease-out;
     @include mixins.border();
     
     display: flex;

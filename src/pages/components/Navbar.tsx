@@ -7,7 +7,8 @@ export default function Navbar() {
     const [burger, setBurger] = useState(false)
 
     const arr = [
-        { text: "Linear gradient SVG lines", link: "/LinearGradient" }
+        { text: "Linear gradient SVG lines", link: "/LinearGradient" },
+        { text: "Carousel", link: "/Carousel" }
     ]
 
     return <section className={styles["section"]}>
